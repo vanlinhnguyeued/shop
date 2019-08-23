@@ -1,0 +1,388 @@
+﻿/* CSS Document */
+.logo1{
+	font-family: "Courier New";
+	font-style: normal;
+	transition: color 0.2s ease-in-out;
+  letter-spacing: 40px;
+  text-transform: uppercase;
+	font-weight:700;
+	font-size: 30px;
+	color: darksalmon;
+}
+input[type=text], select, textarea {
+	width: 100px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+input[type=password], select, textarea {
+  width: 100px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+body{
+	font-family: tahoma, helvetica, arial, sans-serif; 	/* font chữ */
+	font-size: 15px; 									/* cở chữ */
+	/* background:url(../img/page_bg.gif);					ảnh nền của toàn website */
+	margin:0px;
+	padding:0px;
+}
+
+#wrapper{
+	margin:auto;		/* sét khoản cách lề tự động để canh giữa trang */
+	text-align:left;
+	/* width:1200px; */
+	width: 99%;		/* canh chiều ngang của nội dung trang web */
+	border-left: 2px solid #FFF;
+	border-right: 2px solid #FFF;
+	margin-bottom: 10px;
+	background: #FFF;
+	color: #000;
+}
+
+#header{
+	/* background:url(../img/header_bg.gif) repeat-x; */
+	padding-top:10px;
+	width: 100%;
+}
+marquee {
+	
+    font-size: 20px;
+    color: #ba8bcc;
+}
+.logo{
+	/*background-image: url("../img/slider_2.jpg");*/
+
+	 
+}
+
+.infologin{
+  margin-right: -100px;
+}
+
+#sidebar{
+	width: 25%;
+	margin: 0px;
+	padding: 0px;
+	background:#FFF;
+	border-bottom: 2px solid #FFF;
+	float:left;
+	margin-bottom:10px;
+	font-size: 15px;
+}
+
+#content{
+	width: 74%;
+	/* margin: 2px 1px 10px 0px;
+	border: 2px solid #E5E5E5; */
+	float:right;
+	min-height:109px;
+
+}
+
+#footer{
+	clear:both;
+	/* background-image: repeating-linear-gradient(red, yellow 100%, green 20%); */
+	padding: 8px 8px 5px 8px;
+	text-align:right;
+	/* border-bottom: 2px solid #FFF; */
+	font-weight:bold;
+	
+	color:rgb(0, 0, 0);
+	height: 105px;
+	line-height: 97px;
+	font-size: 15px;
+}
+.inputtt{
+	margin-bottom: 5px;
+}
+.buttonns{
+  background-color: rgb(64, 59, 105);
+  color: white;
+  padding: 5px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+  margin-right: 0px;
+}
+.buttonnscapnhat{
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+  
+}
+
+figure.zoom {
+  background-position: 50% 50%;
+  position: relative;
+  width: 500px;
+  overflow: hidden;
+  cursor: zoom-in;
+}
+
+figure.zoom img:hover {
+  opacity: 0;
+}
+
+figure.zoom img {
+  transition: opacity 0.5s;
+  display: block;
+  width: 100%;
+}
+
+.buttonnscapnhat:hover {
+  background-color: #92c594;
+}
+
+.buttonns:hover {
+  background-color: #92c594;
+}
+.box {
+	height: 356px;
+}
+#login_nav{
+	color:#000;
+	font-weight:bold;
+	text-decoration:none;
+	position:absolute;			/*set vị trí tuyệt đối cho khung login_nav */
+	width:700px;
+	margin-left: 39%;
+  margin-top: -100px;			/* điều khiển dịch lên trên so với vị trí hiện tại */
+	text-align:right;
+
+}
+
+a{
+	text-decoration: none;		/* bỏ gạch chân cho link */
+}
+
+#sidebar dl dt{
+	/* background: #C80000 url(../img/dt_bg.gif) bottom repeat-x; */
+	color:rgb(24, 18, 24);
+	/* margin: 2px 2px 1px 2px; */
+	padding: 6px 0px;
+	text-align:left;
+	font-weight:600;
+	height: 50px;
+	line-height: 50px;
+	font-family: "Nunito",sans-serif;
+	font-style: normal;
+	transition: color 0.2s ease-in-out;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+}
+
+#sidebar dl{
+	margin:0px;
+	padding: 0px;
+}
+
+#sidebar dl dd{
+	background: #ffffff;
+	/* border-bottom:1px solid #659DB4; */
+	margin: 0px 2px;
+	padding: 0px;
+	height: 50px;
+	line-height: 50px;
+}
+
+#sidebar dl dd a{
+	font-family: "Nunito",sans-serif;
+	font-style: normal;
+	transition: color 0.2s ease-in-out;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+	font-weight:300;
+	padding: 3px 22px;
+	color: #000;
+	font-size: 12px;
+}
+
+#sidebar dl dd a:hover,a:active{
+	font-size: 16px;
+}
+
+#content h2{
+	font-family: "Nunito",sans-serif;
+	font-style: normal;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+	font-weight:700;
+	color: #39F;
+	padding:20px, 20px;
+	
+}
+
+.box{
+	margin-left: 5px;
+	float:left;
+	width:30%;
+	text-align:center;
+	font-size: 15px;
+}
+
+.box:nth-child(even){					/* định dạng cho các block chẵn */
+	border-top: 10px solid rgb(255, 255, 255);
+	margin-right: 20px;
+}
+
+.box:nth-child(odd){					/* định dạng cho các block lẻ */
+	border-top: 10px solid rgb(255, 255, 255);
+	margin-right: 20px;
+} 
+
+.box img{
+	width: 220px;
+	height: 220px;
+}
+
+.pname{
+	font-family: "Nunito",sans-serif;
+	font-style: normal;
+	transition: color 0.2s ease-in-out;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+	font-weight:200;
+	margin-top:5px;
+}
+
+.pprice{
+	font-family: "Nunito",sans-serif;
+	font-style: normal;
+	transition: color 0.2s ease-in-out;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+	font-weight:600;
+	color:rgb(0, 0, 0);
+}
+
+.action{
+	font: italic bold 12px arial;
+	margin-right:30px;
+	margin-bottom:10px;
+	color:rgb(168, 4, 4);
+	text-align: right;
+}
+
+#chitietsp
+{
+	padding: 10px 10px 10px 10px;
+	min-height:220px;
+}
+
+#chitietleft
+{
+	float:left;
+	margin-bottom: 10px;
+	/* margin-left: 60px; */
+}
+
+#chitietleft img
+{
+	width: 300px;
+	
+}
+
+#chitietright
+{
+	float:right;
+	width: 500px;
+	margin-left: 10px;
+	margin-top:40px;
+	margin-bottom: 10px;
+}
+
+#mota
+{
+	clear:both;
+	font-style:italic;
+	font-size:12px;
+}
+
+.label
+{
+	width: 20%;
+	text-align:right;
+	font-size:13px;
+	display:inline-block;
+	margin-right:5px;
+}
+
+.data
+{
+	font-size:14px;
+	font-weight:bold;
+	color:#666;
+}
+
+.productname
+{
+	font-size: 18px;
+	font-weight:bold;
+	color:#F69;
+}
+
+.price
+{
+	font-size: 18px;
+	font-weight:bold;
+	color:#F93;
+}
+
+.factory
+{
+	font-size: 16px;
+	font-weight:bold;
+	color:#3C6;
+}
+
+.giohang
+{
+	text-align: center;
+}
+
+#quanlygiohang
+{
+	padding: 5px 5px 5px 5px;
+	text-align:center;
+}
+
+#quanlygiohang h1
+{
+	color:#F63;
+	font-weight:bold;
+}
+
+#quanlygiohang table
+{
+	border: 1px solid #369;
+	width: 100%;
+	padding: 0;
+	border-spacing:0px;
+	text-align:center;
+}
+
+#quanlygiohang table tr td, #quanlygiohang table tr th
+{
+	border: 1px solid #369;
+	margin: 0;
+	padding: 5px;
+}
+
+#quanlygiohang table tr th
+{
+	text-align:center;
+}
+
+.err{
+	color: #ff0000;
+}
